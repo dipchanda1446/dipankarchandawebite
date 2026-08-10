@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "title": "IoT Based Biometric Attendance System",
+    "description": "An attendance system built around an ESP8266 microcontroller and an R307 fingerprint sensor, with a live status display on an I2C OLED screen. The web dashboard was built with HTML, CSS and JavaScript, backed by PHP and MySQL running on XAMPP for local development.",
+    "technologies": ["ESP8266", "R307 Fingerprint Sensor", "I2C OLED", "HTML", "CSS", "JavaScript", "PHP", "MySQL", "XAMPP"],
+    "github": "",
+    "demo": "",
+    "documentation": "",
+    "featured": true
+  }
+]

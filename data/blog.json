@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Why I Moved From Computer Science to Teaching",
+    "date": "2026-06-15",
+    "category": "Reflections",
+    "image": "assets/images/note-placeholder.svg",
+    "excerpt": "Sample placeholder post. Replace with your own reflection on choosing the D.El.Ed path after a Computer Science degree.",
+    "content": "Sample placeholder content. Open data/blog.json and replace this text with your full article. You can use plain paragraphs or simple HTML tags like <p>, <strong> and <em> inside this field.",
+    "tags": ["Reflections", "D.El.Ed"],
+    "published": true
+  },
+  {
+    "id": 2,
+    "title": "Five Free Tools Every Trainee Teacher Should Know",
+    "date": "2026-07-02",
+    "category": "Educational Technology",
+    "image": "assets/images/note-placeholder.svg",
+    "excerpt": "Sample placeholder post. Replace with a roundup of the digital tools you actually use for lesson planning and classroom activities.",
+    "content": "Sample placeholder content. Replace this field in data/blog.json with your real article body.",
+    "tags": ["EdTech", "Tools"],
+    "published": true
+  },
+  {
+    "id": 3,
+    "title": "What My First Internship Class Taught Me",
+    "date": "2026-07-28",
+    "category": "Teaching Practice",
+    "image": "assets/images/note-placeholder.svg",
+    "excerpt": "Sample placeholder post. Replace with a reflection from your school internship experience.",
+    "content": "Sample placeholder content. Replace this field in data/blog.json with your real article body.",
+    "tags": ["Internship", "Reflections"],
+    "published": true
+  }
+]

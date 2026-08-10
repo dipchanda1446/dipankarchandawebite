@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Beginning the D.El.Ed Programme",
+    "category": "Semester 1",
+    "description": "Sample placeholder entry. Replace with a reflection on starting the D.El.Ed programme at DIET Cachar — first impressions of coursework and campus life.",
+    "date": "2025-07-01",
+    "image": "assets/images/note-placeholder.svg",
+    "link": "YOUR_GOOGLE_DRIVE_LINK",
+    "published": true
+  },
+  {
+    "id": 2,
+    "title": "Introduction to Educational Psychology",
+    "category": "Semester 1",
+    "description": "Sample placeholder entry. Replace with notes on key theories covered in the Educational Psychology module.",
+    "date": "2025-08-15",
+    "image": "assets/images/note-placeholder.svg",
+    "link": "YOUR_GOOGLE_DRIVE_LINK",
+    "published": true
+  },
+  {
+    "id": 3,
+    "title": "First School Observation",
+    "category": "School Observation",
+    "description": "Sample placeholder entry. Replace with reflections from the first classroom observation visit.",
+    "date": "2025-10-10",
+    "image": "assets/images/note-placeholder.svg",
+    "link": "YOUR_GOOGLE_DRIVE_LINK",
+    "published": true
+  },
+  {
+    "id": 4,
+    "title": "Lesson Plan — Elementary Mathematics",
+    "category": "Lesson Plans",
+    "description": "Sample placeholder entry. Replace with a summary of a lesson plan prepared during teaching practice.",
+    "date": "2025-11-20",
+    "image": "assets/images/note-placeholder.svg",
+    "link": "YOUR_GOOGLE_DRIVE_LINK",
+    "published": true
+  }
+]

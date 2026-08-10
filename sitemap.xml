@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Replace YOUR_GITHUB_USERNAME and YOUR_REPOSITORY_NAME below with your
+  actual GitHub Pages address, e.g. https://dipankarchanda.github.io/personal-website/
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/index.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/about.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/education.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/journey.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/notes.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/projects.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/teaching.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/blog.html</loc></url>
+  <url><loc>https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/contact.html</loc></url>
+</urlset>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog | Dipankar Chanda</title>
+<meta name="description" content="Reflections on learning, teaching and educational technology from Dipankar Chanda's D.El.Ed journey.">
+<link rel="canonical" href="https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPOSITORY_NAME/blog.html">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/animations.css">
+<script src="js/theme.js"></script>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<header class="site-header" id="site-header"></header>
+
+<main id="main">
+  <section class="page-head">
+    <div class="container">
+      <div class="breadcrumb"><a href="index.html">Home</a><span>/</span><span>Blog</span></div>
+      <p class="eyebrow reveal">Blog / Learning Journey</p>
+      <h1 class="reveal">Notes from the <span class="chalk">learning curve.</span></h1>
+      <p class="reveal">Short reflections on teaching, learning and educational technology, written along the way.</p>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container">
+      <div id="blog-list-view">
+        <div class="filter-bar reveal">
+          <input type="search" id="blog-search" placeholder="Search articles or tags…" aria-label="Search articles">
+          <select id="blog-filter-category" aria-label="Filter by category"></select>
+        </div>
+        <div class="grid grid-3 stagger" id="blog-grid">
+          <p class="muted">Loading articles…</p>
+        </div>
+      </div>
+      <div id="article-view" style="display:none;"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer" id="site-footer"></footer>
+
+<script src="js/components.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>

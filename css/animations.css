@@ -1,0 +1,58 @@
+/* ============================================================
+   animations.css — subtle motion, scroll reveals, micro-interactions
+   Respects prefers-reduced-motion (see style.css global rule too)
+   ============================================================ */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero-photo-wrap { animation: floatSlow 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-photo-wrap { animation: none; }
+}
+
+.stagger .reveal:nth-child(1) { transition-delay: 0.02s; }
+.stagger .reveal:nth-child(2) { transition-delay: 0.08s; }
+.stagger .reveal:nth-child(3) { transition-delay: 0.14s; }
+.stagger .reveal:nth-child(4) { transition-delay: 0.2s; }
+.stagger .reveal:nth-child(5) { transition-delay: 0.26s; }
+.stagger .reveal:nth-child(6) { transition-delay: 0.32s; }
+
+/* nav drawer fade */
+.nav-drawer a { opacity: 0; transform: translateX(10px); transition: opacity 0.3s var(--ease), transform 0.3s var(--ease); }
+.nav-drawer.open a { opacity: 1; transform: translateX(0); }
+.nav-drawer.open a:nth-child(1) { transition-delay: 0.05s; }
+.nav-drawer.open a:nth-child(2) { transition-delay: 0.09s; }
+.nav-drawer.open a:nth-child(3) { transition-delay: 0.13s; }
+.nav-drawer.open a:nth-child(4) { transition-delay: 0.17s; }
+.nav-drawer.open a:nth-child(5) { transition-delay: 0.21s; }
+.nav-drawer.open a:nth-child(6) { transition-delay: 0.25s; }
+.nav-drawer.open a:nth-child(7) { transition-delay: 0.29s; }
+.nav-drawer.open a:nth-child(8) { transition-delay: 0.33s; }
+.nav-drawer.open a:nth-child(9) { transition-delay: 0.37s; }
+.nav-drawer.open a:nth-child(10) { transition-delay: 0.41s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  .nav-drawer a { opacity: 1; transform: none; }
+}

@@ -1,0 +1,36 @@
+/* ============================================================
+   responsive.css — mobile-first breakpoint adjustments
+   ============================================================ */
+
+@media (max-width: 1024px) {
+  .hero-grid { grid-template-columns: 1fr; }
+  .hero-photo-wrap { max-width: 360px; margin: 0 auto; }
+  .grid-4 { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+@media (max-width: 860px) {
+  .nav-links { display: none; }
+  .hamburger { display: flex; }
+  .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  .two-col { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .container { padding: 0 18px; }
+  .section { padding: 64px 0; }
+  .section-tight { padding: 44px 0; }
+  .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
+  .hero { padding: 96px 0 60px; }
+  h1 { font-size: clamp(2rem, 9vw, 2.6rem); }
+  .hero-stats { gap: 16px; }
+  .filter-bar { flex-direction: column; }
+  .filter-bar select, .filter-bar input { width: 100%; }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+  .nav-inner { padding: 14px 18px; }
+}
+
+/* Ensure no horizontal scroll anywhere */
+html, body { max-width: 100%; overflow-x: hidden; }

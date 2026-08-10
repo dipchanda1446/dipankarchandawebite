@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "period": "2025 – 2027",
+    "title": "D.El.Ed (Diploma in Elementary Education)",
+    "institution": "DIET Cachar, Assam",
+    "detail": "Currently pursuing. Training in pedagogy, child development, educational psychology and classroom teaching practice.",
+    "score": ""
+  },
+  {
+    "id": 2,
+    "period": "2021 – 2024",
+    "title": "B.Sc. Computer Science (Honours)",
+    "institution": "Gurucharan College, Silchar",
+    "detail": "Core coursework in programming, databases and computer fundamentals.",
+    "score": "74.50%"
+  },
+  {
+    "id": 3,
+    "period": "Additional Courses",
+    "title": "ADCA, Advanced Excel, Power BI, MySQL",
+    "institution": "ADCA (1 year) · Advanced Excel (3 months) · Power BI (1 month) · MySQL (1 month)",
+    "detail": "Short-term certifications supporting technical and data-handling skills.",
+    "score": ""
+  }
+]
